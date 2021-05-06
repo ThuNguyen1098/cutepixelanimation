@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  margin: auto;
+}
+
+body {
+  background-color: pink;
+}
+
+.fruits {
+  padding: 100px;
+  width: 80%;
+  margin: auto;
+}
+.fruits svg {
+  width: 100%;
+}
+@keyframes grapes {
+  0%        {opacity: 1}
+  15%, 70%  {opacity: 0}
+  85%, 100% {opacity: 0}
+}
+#grapes {
+  animation: grapes 2s ease infinite;
+}
+@keyframes lemon {
+  0%        {opacity: 0}
+  15%, 70%  {opacity: 1}
+  85%, 100% {opacity: 0}
+}
+#lemon {
+  animation: lemon 2s ease infinite;
+}
+@keyframes cherry {
+  0%        {opacity: 0}
+  15%, 70%  {opacity: 0}
+  85%, 100% {opacity: 1}
+}
+#cherry {
+  animation: cherry 2s ease infinite;
+}
+@keyframes strawberry {
+  0%        {opacity: 1}
+  15%, 70%  {opacity: 0}
+  85%, 100% {opacity: 0}
+}
+#strawberry {
+  animation: strawberry 2s ease infinite;
+}
+@keyframes banana {
+  0%        {opacity: 0}
+  15%, 70%  {opacity: 1}
+  85%, 100% {opacity: 0}
+}
+#banana {
+  animation: banana 2s ease infinite;
+}
+@keyframes apple {
+  0%        {opacity: 0}
+  15%, 70%  {opacity: 0}
+  85%, 100% {opacity: 1}
+}
+#apple {
+  animation: apple 2s ease infinite;
+}
+@keyframes watermelon {
+  0%        {opacity: 1}
+  15%, 70%  {opacity: 0}
+  85%, 100% {opacity: 0}
+}
+#watermelon {
+  animation: watermelon 2s ease infinite;
+}
+@keyframes pineapple {
+  0%        {opacity: 0}
+  15%, 70%  {opacity: 1}
+  85%, 100% {opacity: 0}
+}
+#pineapple {
+  animation: pineapple 2s ease infinite;
+}
+@keyframes orange {
+  0%        {opacity: 0}
+  15%, 70%  {opacity: 0}
+  85%, 100% {opacity: 1}
+}
+#orange {
+  animation: orange 2s ease infinite;
+}
+#grapes, #lemon, #cherry, #strawberry, #banana, #apple, #watermelon, #pineapple, #orange {animation-delay: .4s}
+
+
+.redheart {
+  position: relative;
+  margin: auto;
+  width: 100px;
+  -webkit-animation: bounce-down 1.6s linear infinite;
+  animation: bounce-down 1.6s linear infinite;
+}
+#heart {
+  position: absolute;
+  
+}
+@-webkit-keyframes bounce-down {
+  25% {
+       -webkit-transform: translateY(-10px);
+  }
+  50%, 100% {
+       -webkit-transform: translateY(0);
+  }
+  75% {
+       -webkit-transform: translateY(10px);
+  }
+}
+
+@keyframes bounce-down {
+   25% {
+        transform: translateY(-10px);
+   }
+   50%, 100% {
+        transform: translateY(0);
+   }
+   75% {
+        transform: translateY(10px);
+   }
+  }
+
+.redheart sgv{
+  width: 100%;
+}
+.redheart .cls-1 {fill: #c00;}
+.redheart .cls-2 {fill: #e60000;}
+.redheart .cls-3 {fill: #ff3939;}
+.redheart .cls-4 {fill: #ffaeae;}
+
